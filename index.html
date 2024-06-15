@@ -270,6 +270,139 @@
 
 <section class="hero is-light is-small">
   <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Zero-shot cross-lingual voice conversion for unseen language</h2>
+        </div>
+      </div>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h3 class="title is-5">Source speech: French -  Target Speech: German</h3>
+        </div>
+      </div>
+      <div class="columns is-centered has-text-centered">
+        <table class="table" style="background-color: transparent;">
+          <thead>
+            <tr>
+              <th align="center"><strong><span class="icon"><i class="fas fa-microphone"></i></span>Source speech</strong></th>
+              <th align="center"><strong><span class="icon"><i class="fas fa-microphone"></i></span>Target speech</strong></th>
+              <th align="center"><strong>MulliVC</strong></th>
+              <th align="center"><strong>ConsistencyVC</strong></th>
+              <th align="center"><strong>DiffHierVC</strong></th>
+              <th align="center"><strong>FreeVC</strong></th>
+              <th align="center"><strong>FreeVC*</strong></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td width="28%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/0/orig.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/0/ref.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/0/mulli.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/0/cvc.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/0/diff.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/0/free.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/0/freemy.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+              <td width="28%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/1/orig.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/1/ref.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/1/mulli.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/1/cvc.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/1/diff.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/1/free.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/1/freemy.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+              <td width="28%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/2/orig.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/2/ref.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/2/mulli.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/2/cvc.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/2/diff.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/2/free.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/2/freemy.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+              <td width="28%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/3/orig.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/3/ref.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/3/mulli.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/3/cvc.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/3/diff.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/3/free.wav" type="audio/wav"></audio></td>
+              <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabfr_mlabde/3/freemy.wav" type="audio/wav"></audio></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-5">Source speech: German - Target Speech: French</h3>
+      </div>
+    </div>
+  <div class="columns is-centered has-text-centered">
+  <table class="table" style="background-color: transparent;">
+    <thead>
+      <tr>
+        <th align="center"><strong><span class="icon"><i class="fas fa-microphone"></i></span>Source speech</strong></th>
+        <th align="center"><strong><span class="icon"><i class="fas fa-microphone"></i></span>Target speech</strong></th>
+        <th align="center"><strong>MulliVC</strong></th>
+        <th align="center"><strong>ConsistencyVC</strong></th>
+        <th align="center"><strong>DiffHierVC</strong></th>
+        <th align="center"><strong>FreeVC</strong></th>
+        <th align="center"><strong>FreeVC*</strong></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td width="28%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/0/orig.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/0/ref.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/0/mulli.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/0/cvc.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/0/diff.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/0/free.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/0/freemy.wav" type="audio/wav"></audio></td>
+      </tr>
+      <tr>
+        <td width="28%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/1/orig.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/1/ref.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/1/mulli.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/1/cvc.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/1/diff.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/1/free.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/1/freemy.wav" type="audio/wav"></audio></td>
+      </tr>
+      <tr>
+        <td width="28%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/2/orig.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/2/ref.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/2/mulli.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/2/cvc.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/2/diff.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/2/free.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/2/freemy.wav" type="audio/wav"></audio></td>
+      </tr>
+      <tr>
+        <td width="28%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/3/orig.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/3/ref.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/3/mulli.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/3/cvc.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/3/diff.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/3/free.wav" type="audio/wav"></audio></td>
+        <td width="12%" style="text-align: center;"><audio controls="" ><source src="static/audio_sample/unseen/mlabde_mlabfr/3/freemy.wav" type="audio/wav"></audio></td>
+      </tr>   
+   </tbody>
+  </table>
+  </div>
+</section>
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column">
